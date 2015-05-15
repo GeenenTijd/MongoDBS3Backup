@@ -27,9 +27,9 @@ Now we're set. You can use it manually:
 	
 But, we don't want to think about it until something breaks! So enter `crontab -e` and insert the following after editing the folders
 
-	# daily backup to S3 (not on first day of month or sundays)
+	# daily backup to S3
 	0 3 * * * sh /home/youruser/mysqltos3.sh -d mydb -b mybucket
-	# weekly backup to S3 (on sundays, but not the first day of the month)
+	# weekly backup to S3
 	0 3 * * 0 sh /home/youruser/mysqltos3.sh -d mydb -b mybucket
 	# monthly backup to S3
 	0 3 1 * * sh /home/youruser/mysqltos3.sh -d mydb -b mybucket
