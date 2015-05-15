@@ -19,7 +19,7 @@ Setup
 
 5. Make a bucket (must be an original name, s3cmd will tell you if it's already used)
 
-		s3cmd mb s3://my-database-backups
+		s3cmd mb s3://mybucket
 	
 Now we're set. You can use it manually:
 
