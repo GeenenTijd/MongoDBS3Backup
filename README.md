@@ -1,4 +1,4 @@
-gmadar / MongoDB-backup-to-Amazon-S3
+MongoDBS3Backup
 =================================
 
 This script is based on the [s3cmd](http://s3tools.org/s3cmd)
